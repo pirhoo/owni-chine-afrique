@@ -1,0 +1,293 @@
+body {
+font-family:DIN Light Regular,Tahoma,Arial,Helvetica,sans-serif;
+font-size:11.5px;
+}
+body, td, th, ul, li, input {
+margin:0;
+padding:0;
+}
+ul {
+list-style-type:none;
+}
+#container {
+background-color:#FFFFFF;
+background-image:url("img/_fond.jpg");
+background-position:left top;
+background-repeat:no-repeat;
+height:665px;
+left:0;
+margin:0;
+padding:0;
+position:absolute;
+top:0;
+width:990px;
+}
+#legend {
+left:0;
+position:absolute;
+top:410px;
+}
+#legend ul {
+padding-left:24px;
+}
+#legend ul li {
+padding:6px 0 6px 60px;
+}
+#items {
+height:604px;
+left:605px;
+position:absolute;
+top:0;
+width:382px;
+}
+#items div {
+position:absolute;
+}
+#items div ul {
+}
+#items div ul li {
+cursor:pointer;
+}
+#items div ul li input {
+vertical-align:middle;
+}
+#items #population {
+left:17px;
+top:65px;
+}
+#items #population ul li {
+padding:14px 0;
+}
+#items #population ul li input {
+margin-right:54px;
+}
+#items #dollars {
+left:16px;
+top:290px;
+}
+#items #dollars ul li {
+padding:1.15em 0;
+}
+#items #dollars ul li#dol1 {
+padding:15px 0;
+}
+#items #dollars ul li#dol2 {
+}
+#items #dollars ul li#dol3 {
+padding:0.6em 0;
+}
+#items #dollars ul li#dol4 {
+padding:0.9em 0;
+}
+#items #dollars ul li input {
+margin-right:49px;
+}
+#items #activities {
+left:204px;
+top:65px;
+}
+#items #activities ul li {
+padding:11px 0;
+}
+#items #activities ul li input {
+margin-right:45px;
+}
+#items #sources {
+font-size:0.9em;
+left:10px;
+top:510px;
+}
+#footer {
+left:0;
+position:absolute;
+top:607px;
+}
+#footer #mediaid {
+background:url("img/rfi.gif") no-repeat scroll left top transparent;
+height:49px;
+left:10px;
+position:absolute;
+top:3px;
+width:49px;
+}
+#footer #social {
+display:block;
+left:83px;
+position:absolute;
+top:7px;
+width:600px;
+}
+#footer #social div {
+display:block;
+float:left;
+height:38px;
+}
+#footer #social div#left {
+background:url("img/footer_social_left.png") no-repeat scroll left top transparent;
+width:20px;
+}
+#footer #social div#middle {
+background:url("img/footer_social.png") repeat-x scroll left top transparent;
+min-width:160px;
+padding:9px;
+}
+#footer #social div#right {
+background:url("img/footer_social_right.png") no-repeat scroll left top transparent;
+width:24px;
+}
+.map_layer {
+border:medium none;
+height:604px;
+left:0;
+position:absolute;
+top:0;
+width:604px;
+}
+#layer0.map_layer {
+background:url("img/layers_0_pays.png") no-repeat scroll left top transparent;
+display:block;
+}
+#layer1.map_layer {
+background:url("img/layers_1_construction.png") no-repeat scroll left top transparent;
+display:none;
+}
+#layer2.map_layer {
+background:url("img/layers_2_petrole.png") no-repeat scroll left top transparent;
+display:none;
+}
+#layer3.map_layer {
+background:url("img/layers_3_raffinerie.png") no-repeat scroll left top transparent;
+display:none;
+}
+#layer4.map_layer {
+background:url("img/layers_4_industrie.png") no-repeat scroll left top transparent;
+display:none;
+}
+#layer5.map_layer {
+background:url("img/layers_5_mines.png") no-repeat scroll left top transparent;
+display:none;
+}
+#layer6.map_layer {
+background:url("img/layers_6_bois.png") no-repeat scroll left top transparent;
+display:none;
+}
+#layer7.map_layer {
+background:url("img/layers_7_textile.png") no-repeat scroll left top transparent;
+display:none;
+}
+#layer8.map_layer {
+background:url("img/layers_8_telecom.png") no-repeat scroll left top transparent;
+display:none;
+}
+#layer9.map_layer {
+background:url("img/layers_9_commerce.png") no-repeat scroll left top transparent;
+display:none;
+}
+#layer10.map_layer {
+background:url("img/layers_10_agriculture.png") no-repeat scroll left top transparent;
+display:none;
+}
+#layer11.map_layer {
+background:url("img/layers_11_dol1.png") no-repeat scroll left top transparent;
+display:none;
+}
+#layer12.map_layer {
+background:url("img/layers_12_dol400.png") no-repeat scroll left top transparent;
+display:none;
+}
+#layer13.map_layer {
+background:url("img/layers_13_dol1M.png") no-repeat scroll left top transparent;
+display:none;
+}
+#layer14.map_layer {
+background:url("img/layers_14_dol5M.png") no-repeat scroll left top transparent;
+display:none;
+}
+#layer15.map_layer {
+background:url("img/layers_15_pop3k.png") no-repeat scroll left top transparent;
+display:block;
+}
+#layer16.map_layer {
+background:url("img/layers_16_pop10k.png") no-repeat scroll left top transparent;
+display:block;
+}
+#layer17.map_layer {
+background:url("img/layers_17_pop50k.png") no-repeat scroll left top transparent;
+display:block;
+}
+#layer18.map_layer {
+background:url("img/layers_18_pop51k.png") no-repeat scroll left top transparent;
+display:block;
+}
+#act1 {
+background:url("img/picto_activites.png") no-repeat scroll 16px 2px transparent;
+}
+#act2 {
+background:url("img/picto_activites.png") no-repeat scroll 16px -36px transparent;
+}
+#act3 {
+background:url("img/picto_activites.png") no-repeat scroll 16px -74px transparent;
+}
+#act4 {
+background:url("img/picto_activites.png") no-repeat scroll 16px -111px transparent;
+}
+#act5 {
+background:url("img/picto_activites.png") no-repeat scroll 16px -149px transparent;
+}
+#act6 {
+background:url("img/picto_activites.png") no-repeat scroll 16px -186px transparent;
+}
+#act7 {
+background:url("img/picto_activites.png") no-repeat scroll 16px -223px transparent;
+}
+#act8 {
+background:url("img/picto_activites.png") no-repeat scroll 16px -260px transparent;
+}
+#act9 {
+background:url("img/picto_activites.png") no-repeat scroll 16px -297px transparent;
+}
+#act10 {
+background:url("img/picto_activites.png") no-repeat scroll 16px -334px transparent;
+}
+#leg1 {
+background:url("img/picto_legende.png") no-repeat scroll 10px 4px transparent;
+}
+#leg2 {
+background:url("img/picto_legende.png") no-repeat scroll 10px -24px transparent;
+}
+#leg3 {
+background:url("img/picto_legende.png") no-repeat scroll 10px -54px transparent;
+}
+#leg4 {
+background:url("img/picto_legende.png") no-repeat scroll 10px -81px transparent;
+}
+#leg5 {
+background:url("img/picto_legende.png") no-repeat scroll 10px -106px transparent;
+}
+#leg6 {
+background:url("img/picto_legende.png") no-repeat scroll 10px -135px transparent;
+}
+#pop1 {
+background:url("img/picto_pop.png") no-repeat scroll 16px 2px transparent;
+}
+#pop2 {
+background:url("img/picto_pop.png") no-repeat scroll 16px -45px transparent;
+}
+#pop3 {
+background:url("img/picto_pop.png") no-repeat scroll 16px -88px transparent;
+}
+#pop4 {
+background:url("img/picto_pop.png") no-repeat scroll 16px -133px transparent;
+}
+#dol1 {
+background:url("img/picto_dol.png") no-repeat scroll 12px -3px transparent;
+}
+#dol2 {
+background:url("img/picto_dol.png") no-repeat scroll 12px -50px transparent;
+}
+#dol3 {
+background:url("img/picto_dol.png") no-repeat scroll 12px -97px transparent;
+}
+#dol4 {
+background:url("img/picto_dol.png") no-repeat scroll 12px -125px transparent;
+}
